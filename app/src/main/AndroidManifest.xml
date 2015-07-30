@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.felipes.friendlyuser" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Servicios"
+            android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NotificarAveria" android:screenOrientation="portrait"/>
+        <activity android:name=".TrazabilidadMovil" android:screenOrientation="portrait"/>
+        <activity android:name=".TrazabilidadWIFI" android:screenOrientation="portrait"/>
+        <activity android:name=".Pruebas" android:screenOrientation="portrait"/>
+        <activity android:name=".Calidad1" android:screenOrientation="portrait"/>
+        <activity android:name=".Calidad2" android:screenOrientation="portrait"/>
+        <activity android:name=".Calidad3" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

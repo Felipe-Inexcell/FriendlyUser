@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Friendly User</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <array name="entries">
+        <item>entry 1</item>
+        <item>entry 2</item>
+        <item>entry 3</item>
+    </array>
+</resources>
